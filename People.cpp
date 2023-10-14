@@ -31,3 +31,9 @@ int People::getAge()
 {
     return age;
 }
+
+void People::introduce()
+{
+    cout << "Hi my name is " << People::name << "." << endl;
+    cout << "I'm " << People::age << " years old." << endl;
+}

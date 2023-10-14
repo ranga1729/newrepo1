@@ -1,4 +1,5 @@
 #include "People.h"
+#pragma once
 
 class Employee:public People
 {
@@ -6,5 +7,10 @@ class Employee:public People
         string department;
 
     public:
-        Employee(string name, int age, string department):People(name,age) {};
+        Employee(string name, int age, string department);
+
+        void setDepartment(string department);
+        string getDepartment();
+
+        void introduce();
 };

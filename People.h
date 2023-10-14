@@ -1,4 +1,5 @@
 #include "libraries.h"
+#pragma once
 
 class People
 {
@@ -19,4 +20,6 @@ class People
         //setter, getter for age
         void setAge(int age);
         int getAge();
+
+        void introduce();
 };
